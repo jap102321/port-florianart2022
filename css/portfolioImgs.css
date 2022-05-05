@@ -1,0 +1,30 @@
+.portafolio-test img {
+  line-height: 70px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.images img {
+  margin: 0;
+  outline: 1rem solid #6A6262;
+  padding: 0;
+  width: 400px;
+  height: 393px;
+  line-height: 70px;
+}
+
+#joelImages {
+  max-inline-size: 1400px;
+}
+
+.avion img:nth-child(1) {
+  width: 600px;
+}
+
+
+.portafolio img {
+
+
+  user-select: none;
+  pointer-events: none;
+}

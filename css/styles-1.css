@@ -1,0 +1,67 @@
+@import './landing.css';
+@import './footer.css';
+@import './portfolio.css';
+
+:root{
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  --gray10: #a5a3a5;
+  --background: #e0d8d8;
+}
+
+body{
+   /* background-image: linear-gradient(to right bottom, #5d636b, #84878e, #acadb2, #d5d5d8, #ffffff); */
+   background-color: var(--background);
+}
+h3{
+  text-align: center;
+  font-weight: bold;
+}
+h4{
+  text-align: center;
+  font-weight: bold;
+}
+
+span{
+  font-weight: bold;
+}
+
+
+li{
+  list-style: circle;
+}
+
+
+@media screen and (max-width:550px){
+  .responsive{
+    display: flex;
+    opacity:100%;
+    width: 70px;
+    padding-block-start: 100px;
+    padding-inline-start:130px;
+    align-items: center;
+  }
+  .wrapper-main{
+    display: none;
+  }
+  .portafolio{
+    display: none;
+  }
+  .footer-bottom{
+    display: none;
+  }
+  .firma{
+    display: none;
+  }
+  .bottom{
+    display: none;
+  }
+}
+
+
+
+ @media screen and (min-width: 1350px){
+   .wrapper-main{
+     display: block;
+   }
+ }

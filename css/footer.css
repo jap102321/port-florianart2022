@@ -1,0 +1,68 @@
+.footer-main{
+  text-align: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  /* display:block; */
+  display: inline-block;
+  position: relative;
+  min-inline-size: 100%;
+
+}
+
+.footer-main a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer-bottom{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.footer-bottom a{
+  text-decoration: none;
+  color: black;
+}
+
+.af-logo img{
+  width: 450px;
+  height: auto;
+  position: relative;
+}
+
+.af-logo p{
+  clear: right;
+  float: right;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.af-logo img:hover{
+  transform: scale(0.5);
+  transition: 0.8s;
+}
+
+.colores{
+  display: none;
+}
+
+.firma{
+  display: none;
+  /* display: inline-block; */
+  width: 450px;
+  /* justify-content: center; */
+  position: relative  ;
+  /* border: 1px solid red; */
+  /* clear: both; */
+  /* float: inline-start; */
+  margin-left: 480px;
+  margin-top: 200px;
+}
+
+#people{
+  color:#FF0000;
+}

@@ -1,0 +1,14 @@
+@import './footer.css';
+@import './main.css';
+@import './button.css';
+
+
+body{
+  font-family: 'Nunito', sans-serif;
+  background:#121212;
+  overflow: hidden;
+}
+
+
+
+

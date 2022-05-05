@@ -1,0 +1,25 @@
+
+.buttonCenter {
+ cursor: pointer;
+ margin: auto;
+ border: none;
+ inline-size:5rem;
+ block-size: 2.3rem;
+ border-radius: 4px;
+ background:white;
+ font-family: 'Nunito', sans-serif;
+}
+
+
+
+.buttonCenter a{
+  text-decoration: none;
+  color:black;
+}
+
+.buttonCenter:hover {
+  color: black;
+  background: gray;
+  transition: 0.9s ease all;
+}
+
