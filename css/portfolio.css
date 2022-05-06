@@ -1,14 +1,8 @@
 @import './portfolioImgs.css';
 @import './portfolioInside.css';
 
-.portafolio{
---minInlineSize:30rem;
---maxInlineSize:68rem;
---minBlockSize:15rem;
---maxBlockSize:auto;
-  display: grid;
 
-}
+
 
 
 

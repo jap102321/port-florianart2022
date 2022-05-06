@@ -21,6 +21,9 @@
   justify-content: center;
   margin-top: 40px;
 }
+.footer-bottom p{
+  margin: 10px;
+}
 
 .footer-bottom a{
   text-decoration: none;

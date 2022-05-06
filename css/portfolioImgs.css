@@ -6,15 +6,16 @@
 
 .images img {
   margin: 0;
-  outline: 1rem solid #6A6262;
+  outline: .4rem solid #6A6262;
   padding: 0;
-  width: 400px;
-  height: 393px;
+  inline-size: 25rem;
+  block-size: 24.5rem;
   line-height: 70px;
 }
 
 #joelImages {
-  max-inline-size: 1400px;
+  min-inline-size: 1300px;
+  min-block-size:auto;
 }
 
 .avion img:nth-child(1) {
@@ -22,9 +23,8 @@
 }
 
 
-.portafolio img {
-
-
-  user-select: none;
-  pointer-events: none;
-}
+ @media screen and (min-width: 1350px) {
+   .images img{
+     inline-size: 30%;
+   }
+ }
