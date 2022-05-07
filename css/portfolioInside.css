@@ -19,8 +19,8 @@
   text-align: start;
 }
 
-.texto.fokker {
-  margin-inline-start: -130px;
+.texto.joel {
+  margin-block-start: 58px;
 }
 
 .portafolio-test img {
@@ -31,12 +31,14 @@
 
 
 .texto {
-
-  width: 270px;
   height: 2px;
-  max-inline-size: 200px;
-  max-block-size: 300px;
-  line-height: .8rem;
+  min-inline-size: 200px;
+  max-inline-size: auto;
+  min-block-size: 300px;
+  max-block-size: auto ;
+  line-height: .9rem;
+  white-space:none;
+  overflow: visible;
 }
 
 
